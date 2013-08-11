@@ -29,7 +29,6 @@ body{
 	background-color: #c0c0c0;
 	padding: 2%;
 	margin: 0 auto;
-	margin-left: -1%;
 	border-bottom: 5px solid #077ca9;
 	overflow: hidden;
 
@@ -44,7 +43,7 @@ h1{
 	color: #2d2a2b;
 	/*border-top: 5px solid #077ca9;*/
 	margin: 0 auto;
-	margin-top: 3%;
+	margin-top: 1%;
 	padding: 1% 2% 1% 4%;
 }
 
@@ -64,7 +63,9 @@ h3{
 }
 
 h4{
-	margin-left: 30%;
+	margin-bottom: -1%;
+	margin-top: 0%;
+	
 	font-size: 1.25em;
 }
 
@@ -100,35 +101,56 @@ aside{
 
 
 #homewoodsuites{
-	margin-left: 4%;
-	margin-top: 5%;
-	margin-bottom: 10%;
+	/*margin-top: -27%;
+	margin-bottom: 3%;*/
 	float: left;
 	clear: both;
+	
 }
 
 #meetingtimes{
 	border: 2px solid #113265;
 	border-radius: 10px;
+	float: left;
+	clear: both;
+	margin: 2% 4%;
+	padding: 2%;
+	font-size: 1.125em;
+	background: #c0c0c0;
+	width: 88%;
+}
+
+#google_map{
 	float: right;
 	clear: both;
-	margin: -35% 4%;
-	font-size: 1.125em;
-	padding: -0% 6%;
-	background: #c0c0c0;
+	margin-top: -50%;
 }
 
 li{
 	display: inline;
 }
 
-#iconlist{
+#facebook{
 	/*outline: 1px solid #fff;*/
 	float: right;
 	clear: both;
-	margin-left: -1%;
-	margin-top: -7%;
-	margin-right: 3%;
+	font-size: .85em;
+	margin-right: 8%;
+	margin-bottom: -1.5%;
+	margin-top: -1.5%;
+}
+
+#facebookicon{
+	/*outline: 1px solid #fff;*/
+	float: right;
+	clear: both;
+	margin-top: -5%;
+	margin-bottom: -3%;
+	margin-right: 2%; 
+}
+
+a:link{
+	text-decoration: none;
 }
 
 img{
