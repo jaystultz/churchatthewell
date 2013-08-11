@@ -59,6 +59,19 @@ h2{
 	margin-top: 0%;
 }
 
+h3{
+	font-size: 1em;
+}
+
+h4{
+	margin-left: 30%;
+	font-size: 1.25em;
+}
+
+h5{
+	font-size: 1em;
+}
+
 article{
 	margin: 4% 4%;
 }
@@ -85,24 +98,6 @@ aside{
 	font-size: .75em;
 }
 
-h3{
-	font-size: 1em;
-}
-
-#jesus{
-	margin-left: 33%;
-	margin-bottom: 3%;
-	margin-top: -1%;
-}
-
-h5{
-	font-size: 1em;
-}
-
-h4{
-	margin-left: 30%;
-	font-size: 1.25em;
-}
 
 #homewoodsuites{
 	margin-left: 4%;
