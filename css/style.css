@@ -14,8 +14,24 @@ body{
 	line-height: 130%;
 	max-width: 100%;
 	margin: 0 auto;
-	background-color: #585858;
-}
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
+
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.25, #3a89ae), color-stop(0.50, #0a6493), color-stop(0.75, #0B6190), color-stop(1, #132157));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
+	}
 
 .container{
 	overflow: hidden;
@@ -100,8 +116,8 @@ aside{
 }
 
 #homewoodsuites{
-	/*margin-top: -27%;
-	margin-bottom: 3%;*/
+	margin-top: 6%;
+	margin-bottom: 0%;
 	float: left;
 	clear: both;
 	
@@ -112,7 +128,7 @@ aside{
 	border-radius: 10px;
 	float: left;
 	clear: both;
-	margin: 2% 4%;
+	margin: 3% 4% 0% 4%;
 	padding: 2%;
 	font-size: 1.125em;
 	background: #c0c0c0;
@@ -122,7 +138,7 @@ aside{
 #google_map{
 	float: right;
 	clear: both;
-	margin-top: -48%;
+	margin-top: -57%;
 }
 
 li{
@@ -135,21 +151,22 @@ li{
 	clear: both;
 	font-size: .85em;
 	margin-right: 8%;
-	margin-bottom: -1.5%;
-	margin-top: -0.25%;
+	margin-bottom: -3%;
+	margin-top: 8%;
 }
 
 #facebookicon{
 	/*outline: 1px solid #fff;*/
 	float: right;
 	clear: both;
-	margin-top: -5%;
-	margin-bottom: -3%;
+	margin-top: -2%;
+	margin-bottom: -1%;
 	margin-right: 2%; 
 }
 
 a:link{
 	text-decoration: none;
+	color: #077ca9;
 }
 
 img{
@@ -159,12 +176,28 @@ img{
 footer{
 	float: left;
 	clear: both;
-	margin: 3% 0%;
-	background: #113265;
+	margin-top: 5%;
+	background: #132157;
 	width: 100%;
-	padding-left: 4%;
+	padding: 3% 0 2% 4%;
 	color: #909090;
 	font-size: 1.125em;
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
+
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #909090), color-stop(0.5, #0e4b7d), color-stop(1, #132157));
+
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
+
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #909090 0%, #0e4b7d 50%, #132157 100%);
 }
 
 
@@ -245,7 +278,8 @@ h2{
 #google_map{
 	float: left;
 	clear: both;
-	margin-top: 3%;
+	margin-top: 5%;
+	margin-left: 3%;
 }
 
 #facebook{
@@ -270,8 +304,8 @@ h2{
 footer{
 	float: left;
 	clear: both;
-	margin: 3% 0%;
-	background: #113265;
+	margin-top: 3%;
+	background: #132157;
 	width: 100%;
 	padding-left: 4%;
 	color: #909090;
@@ -305,11 +339,13 @@ aside{
 	width: 90%;
 	margin-top: 140%;
 	margin-bottom: 20%;
+	margin-left: 5%;
 }
 
 article{
 	margin-top: -225%;
 	margin-bottom: 5%;
+	width: 90%;
 }
 
 #homewoodsuites{
@@ -317,17 +353,18 @@ article{
 	clear: both;
 	margin-left: 3%;
 	margin-bottom: 3%;
-	max-width: 90%;
+	max-width: 94%;
 }
 
 #meetingtimes{
 	float: left;
 	clear: both;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-top: 80%;
-	padding: 2%;
+	margin-right: 5%;
+	padding: 2% 0;
 	font-size: 1.125em;
-	max-width: 90%;
+	width: 90%;
 }
 
 #meetinginfo{
@@ -337,6 +374,7 @@ article{
 #google_map{
 	float: none;
 	clear: both;
+	margin: 2%;
 }
 
 iframe{
@@ -359,8 +397,8 @@ iframe{
 footer{
 	float: left;
 	clear: both;
-	margin: 3% 0%;
-	background: #113265;
+	margin-top: 3%;
+	background: #132157;
 	width: 100%;
 	padding-left: 4%;
 	color: #909090;
@@ -412,12 +450,15 @@ aside{
 	width: 90%;
 	margin-top: 255%;
 	margin-bottom: 20%;
+	margin-left: 5%;
 }
 
 article{
 	margin-top: -350%;
 	margin-bottom: 5%;
 	font-size: .9em;
+	width: 90%;
+	margin-left: 5%;
 }
 
 #homewoodsuites{
@@ -425,17 +466,17 @@ article{
 	clear: both;
 	margin-left: 3%;
 	margin-bottom: 3%;
-	max-width: 90%;
+	max-width: 94%;
 }
 
 #meetingtimes{
 	float: left;
 	clear: both;
-	margin-left: 3%;
+	margin-left: 2.3%;
 	margin-top: 90%;
 	padding: 2%;
 	font-size: .9em;
-	max-width: 90%;
+	width: 90%;
 }
 
 #meetinginfo{
@@ -467,8 +508,8 @@ iframe{
 footer{
 	float: left;
 	clear: both;
-	margin: 3% 0%;
-	background: #113265;
+	margin-top: 3%;
+	background: #132157;
 	max-width: 100%;
 	padding-left: 4%;
 	color: #909090;
