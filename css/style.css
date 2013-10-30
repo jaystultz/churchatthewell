@@ -7,7 +7,7 @@ Copyright 2013, Josh Cope
    Site Styles
    ========================================================================== */
 body{ 
-	font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
+    font-family: 'Lato', Helvetica, Arial, sans-serif; /* 16px */
 	font-weight: 400;
 	font-size: 1em;
 	color: #202020;
@@ -32,6 +32,7 @@ body{
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to bottom, #ffffff 0%, #3a89ae 25%, #0a6493 50%, #0B6190 75%, #132157 100%);
 	}
+    
 
 .container{
 	overflow: hidden;
@@ -49,31 +50,22 @@ body{
 	overflow: hidden;
 }
 
+form{
+    float: left;
+    clear: both;
+    margin: 5%;
+}
+
 footer{
 	float: left;
 	clear: both;
-	margin-top: 5%;
-	background: #132157;
+	margin-top: 3%;
+    margin-bottom: -1%;
 	width: 100%;
 	padding: 3% 0 2% 4%;
-	color: #909090;
-	font-size: 1.125em;
-	/* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
+	color: #132157;
+	font-size: 1em;
 
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #909090), color-stop(0.5, #0e4b7d), color-stop(1, #132157));
-
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #909090 0%, #0e4b7d 50%, #132157 100%);
 }
 
 /* =============================================================================
@@ -115,17 +107,13 @@ h3{
 h4{
 	margin-bottom: -1%;
 	margin-top: 0%;
-	
 	font-size: 1.25em;
+    width: 46%;
+    line-height: 130%;
 }
 
 h5{
 	font-size: 1em;
-}
-
-#firstservice{
-    text-decoration: underline;   
-    color: #fff;
 }
 
 article{
@@ -151,15 +139,17 @@ aside{
 	margin-right: 5%;
 	margin-left: 3%;
 	margin-top: 3%;
+    margin-bottom: 10%;
 	font-size: .75em;
 }
 
-#homewoodsuites{
-	margin-top: 6%;
+#discoverycenter{
+    display: none;
+	margin-top: 0%;
 	margin-bottom: 0%;
 	float: left;
 	clear: both;
-	
+    width: 60%;
 }
 
 #meetingtimes{
@@ -167,21 +157,76 @@ aside{
 	border-radius: 10px;
 	float: left;
 	clear: both;
-	margin: 3% 4% 0% 4%;
+	margin: 3% 5% 0% 3%;
 	padding: 2%;
 	font-size: 1.125em;
 	background: #c0c0c0;
-	width: 88%;
+	width: 90%;
+}
+
+#when{
+	font-size: 1.5em;
+	margin-top: 1%;
 }
 
 #google_map{
+    display: none;
 	float: right;
 	clear: both;
-	margin-top: -57%;
+	margin-top: -56%;
+    margin-bottom: -1%;
 }
 
 li{
 	display: inline;
+}
+
+#donate{
+	border: 2px solid #113265;
+	border-radius: 10px;
+	float: left;
+	clear: both;
+	margin: 3% 5% -5% 3%;
+	padding: 1% 1% 2% 2%;
+	font-size: 1.125em;
+	background: #c0c0c0;
+	width: 91%;
+}
+
+#stonewell{
+	width: 44.5%;
+	float: right;
+	clear: both;
+	margin-top: -22.5%;
+	margin-right: 1%;
+	margin-bottom: 0%;
+}
+
+#paypalheading{
+	width: 44.5%;
+	margin: 3% 0;
+}
+
+#onlinegiving{
+	font-style: normal;
+	font-size: 2em;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 2%; 
+	text-align: center;
+}
+
+#giving{
+	font-style: italic;
+	text-decoration: none;
+	font-size: 1em;
+	margin-top: 2%;
+	margin-bottom: 3%;	
+	text-align: center;
+}
+
+form{
+	margin: 7% 0 5% 31%;
 }
 
 #facebook{
@@ -250,25 +295,10 @@ footer{
 	clear: both;
 	margin-top: 3%;
 	width: 100%;
-	padding-left: 4%;
-	color: #909090;
-	font-size: 1.125em;
-	/* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #909090), color-stop(0.5, #0e4b7d), color-stop(1, #132157));
-
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #909090 0%, #0e4b7d 50%, #132157 100%);
+	padding-left: 2%;
+    background-color: #909090;
+	color: #132157;
+	font-size: 1em;
 }
 
 /* =============================================================================
@@ -297,8 +327,10 @@ h2{
 	margin-top: 3%;
 }
 
-#firstservice{
-    margin: 5% 0 3% 14%;
+h4{
+	width: 98%;
+	margin-bottom: 2%;
+	font-size: 1.125em;
 }
 
 #homewoodsuites{
@@ -306,29 +338,83 @@ h2{
 	margin-bottom: 3%;*/
 	float: left;
 	clear: both;
-	margin-left: 3%;
-	
+	margin-left: 1%;
+    margin-top: 6%;
+    margin-bottom: -4%;
+    width: 42%;
 }
 
 #meetingtimes{
 	float: left;
 	clear: both;
-	margin-left: 20%;
-	padding: 2%;
+	margin-left: 1%;
+	padding: 1%;
 	font-size: 1.125em;
-	max-width: 55%;
+	width: 96%;
 }
 
 #meetinginfo{
-	margin-left: 3%;
+	margin-left: 1%;
+}
+
+#when{
+	font-size: 1em;
+	margin-top: 3%;
+}
+
+#mail{
+	margin-top: 3%;
+	margin-bottom: -2%;
 }
 
 #google_map{
+	float: right;
+	clear: both;
+	margin-top: -64%;
+	margin-left: 0%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+#donate{
+	margin: 1%;
+	width: 95%;
+}
+
+#stonewell{
+	margin-top: -21%;
+}
+
+#onlinegiving{
 	float: left;
 	clear: both;
-	margin-top: 5%;
-	margin-left: 3%;
+	font-style: normal;
+	font-size: 2em;
+	/*outline: 1px solid #fff;*/
+	padding: 0;
+	margin-bottom: -7%;
+	margin-left: 7%;
+	margin-top: -5%;
 }
+
+#giving{
+	float: left;
+	clear: both;
+	font-style: italic;
+	text-decoration: none;
+	/*outline: 1px solid #fff;*/
+	font-size: 1em;
+	margin-bottom: 3%;
+	margin-top: 9%;
+	margin-left: 4%;
+}
+
+form{
+	margin-left: 17%;
+	margin-bottom: 0%;
+	margin-top: 7%;
+}
+
 
 #facebook{
 	/*outline: 1px solid #fff;*/
@@ -384,53 +470,33 @@ footer{
 	margin-top: 3%;
 	width: 100%;
 	padding-left: 4%;
-	color: #909090;
-	font-size: 1.125em;
-	/* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #909090), color-stop(0.5, #0e4b7d), color-stop(1, #132157));
-
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #909090 0%, #0e4b7d 50%, #132157 100%);
+	background-color: #909090;
+    color: #132157;
+	font-size: 1em;
 }
 
 /* =============================================
    HOME
    ============================================*/	
 h1{
-	font-size: 1em;
+	font-size: 1.125em;
 }
 
 h2{
 	/*outline: 1px solid #000;*/
-	font-size: .75em;
+	font-size: 1em;
 	margin-left: 4%;
 	margin-top: 3%;
-}
-
-#firstservice{
-    margin-top: 85%;
-    margin-bottom: -70%;
-    margin-left: 3%;
 }
 
 aside{
 	float: none;
 	clear: both;
 	width: 90%;
-	margin-top: 140%;
+	margin-top: 135%;
 	margin-bottom: 20%;
 	margin-left: 5%;
+    font-size: .85em;
 }
 
 article{
@@ -439,20 +505,30 @@ article{
 	width: 90%;
 }
 
+h4{
+	width: 100%;
+	font-size: 1.5em;
+}
+
+h5{
+    margin-top: -1%;
+    padding-bottom: 5%;
+}
+
 #homewoodsuites{
 	float: left;
 	clear: both;
 	margin-left: 3%;
 	margin-bottom: 3%;
-	max-width: 94%;
+	width: 94%;
 }
 
 #meetingtimes{
 	float: left;
 	clear: both;
-	margin-left: 5%;
+	margin-left: 4.5%;
 	margin-top: 80%;
-	margin-right: 5%;
+	margin-right: 4.5%;
 	padding: 2% 0;
 	font-size: 1.05em;
 	width: 90%;
@@ -462,16 +538,57 @@ article{
 	margin-left: 3%;
 }
 
+#when{
+	font-size: 1.25em;
+}
+
 #google_map{
 	float: none;
 	clear: both;
 	margin: 2%;
+	width: 94%;
+	margin-left: 1%;
+	margin-bottom: 1%;
 }
 
-iframe{
-	max-width: 100%;
+#donate{
+	margin: 1%;
+	margin-top: 3%;
+	width: 87%;
+	margin-left: 4.5%;
 }
 
+#paypalheading{
+	width: 100%;
+}
+
+#onlinegiving{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#giving{
+	float: none;
+	margin: 3% auto;
+	text-align: center;	
+}
+
+form{
+	margin-left: 30%;
+	margin-top: 5%;
+}
+
+
+#stonewell{
+	float: left;
+	clear: right;
+	margin-left: 4.5%;
+	margin-top: 7%;
+	margin-right: 4.5%;
+	margin-bottom: 3%;
+	width: 90%;
+}
 
 #facebook{
 	margin-right: 15%;
@@ -505,118 +622,146 @@ iframe{
 }   
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {
+@media only screen and (min-width: 0px) and (max-width: 479px) {
 
 /* =============================================================================
    Site Styles
    ========================================================================== */
 
+
 footer{
-	float: left;
+    float: left;
 	clear: both;
-	margin-top: 3%;
-	max-width: 100%;
-	padding-left: 4%;
-	color: #909090;
+	margin-top: 10%;
+	width: 96%;
+	padding-left: 3%;
+	background-color: #909090;
+    color: #132157;
 	font-size: .8em;
-	/* IE10 Consumer Preview */ 
-	background-image: -ms-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Mozilla Firefox */ 
-	background-image: -moz-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-	/* Opera */ 
-	background-image: -o-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* Webkit (Safari/Chrome 10) */ 
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #909090), color-stop(0.5, #0e4b7d), color-stop(1, #132157));
-
-	/* Webkit (Chrome 11+) */ 
-	background-image: -webkit-linear-gradient(top, #909090 0%, #0e4b7d 50%, #132157 100%);
-
-	/* W3C Markup, IE10 Release Preview */ 
-	background-image: linear-gradient(to bottom, #909090 0%, #0e4b7d 50%, #132157 100%);
 }
 
 /* =============================================
    HOME
-   ============================================*/
+   ============================================*/	
 h1{
 	font-size: 1em;
-	margin-top: 2%;
 }
 
 h2{
 	/*outline: 1px solid #000;*/
 	font-size: .9em;
-	margin: 2% 3%;
-	margin-bottom: -3%;
+	margin-left: 4%;
+	margin-top: 3%;
 }
 
-#firstservice{
-    margin-top: 100%;
-    margin-bottom: -84%;
+h4{ 
+    line-height: 130%;
+    width: 98%;
     font-size: 1em;
-    line-height: 140%;
 }
 
 aside{
-	float: none;
-	clear: both;
-	width: 90%;
-	margin-top: 260%;
-	margin-bottom: 10%;
-	margin-left: 5%;
+    display: none;
 }
 
 article{
-	margin-top: -340%;
-	margin-bottom: 5%;
-	font-size: .9em;
+	margin-top: 0%;
+	margin-bottom: 1%;
 	width: 90%;
-	margin-left: 5%;
+}
+
+section{
+    margin-bottom: 10%;
+    /*outline: 1px solid #fff;*/
 }
 
 #homewoodsuites{
-	display: none;
+	float: left;
+	clear: both;
+	margin-left: 3%;
+	margin-bottom: 1%;
+	width: 94%;
 }
 
 #meetingtimes{
 	float: left;
 	clear: both;
-	margin-left: 2.3%;
-	margin-top: 95%;
-	padding: 2%;
-	font-size: .9em;
+	margin-left: 4.25%;
+	margin-top: 5%;
+	margin-right: 4.5%;
+	padding: 2% 0;
+	font-size: 1.05em;
 	width: 90%;
 }
 
 #meetinginfo{
 	margin-left: 3%;
-    margin-bottom: 3%;
+}
+
+#when{
+	font-size: 1em;
+	width: 75%;
 }
 
 #google_map{
+    display: none;
+}
+
+#donate{
+	margin: 1%;
+	margin-top: 3%;
+	width: 87%;
+	margin-left: 4.5%;
+}
+
+#paypalheading{
+	width: 100%;
+}
+
+#onlinegiving{
 	float: none;
-	clear: both;
-    margin-top: 2%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.5em;
 }
 
-iframe{
-	max-width: 100%;
+#giving{
+	float: none;
+	margin: 1% auto 3% auto;
+	text-align: center;
+	width: 95%;
+	font-size: .8em;
 }
 
+form{
+	margin-left: 22%;
+	margin-top: 5%;
+	margin-bottom: 7%;
+	/*outline: 1px solid #fff;*/
+}
+
+
+#stonewell{
+	/*outline: 1px solid #fff;*/
+	float: none;
+	clear: none;
+	margin-left: 1.5%;
+	margin-top: 7%;
+	margin-right: 1.5%;
+	margin-bottom: 1%;
+	width: 97%;
+}
 
 #facebook{
 	margin-right: 20%;
 	margin-bottom: -3%;
-	margin-top: 10.25%;
+	margin-top: 20%;
 }
 
 #facebookicon{
-	margin-top: -16%;
+	margin-top: -15%;
 	margin-bottom: -1%;
 	margin-right: 2%; 
-}
    	
 /* =============================================
    PAGE 2
@@ -636,7 +781,7 @@ iframe{
    PAGE 6
    ============================================*/
    
-   }
+}
 
 
 
